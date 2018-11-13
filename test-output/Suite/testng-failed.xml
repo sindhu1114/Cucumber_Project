@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="manu"/>
+    <parameter name="username" value="sindhu"/>
+    <classes>
+      <class name="org.main.java.clas.testng2">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- org.main.java.clas.testng2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
